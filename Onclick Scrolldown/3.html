@@ -1,0 +1,64 @@
+<html>
+    <head>
+      <title>Scrolldown</title>
+      <style>
+
+
+  
+#menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#menu .main-menu {
+  display: none;
+}
+
+#tm:checked + .main-menu {
+  display:inherit;
+}
+
+#menu input[type='checkbox'] {
+  display:  none;
+}
+
+#menu li, 
+#menu1, 
+#menu a {
+  position: relative;
+  display: block;
+  color:red;  
+  text-decoration: none;
+}
+
+#menu{
+    background-color:lightblue;
+}
+
+  
+
+</style>
+
+
+    </head>
+
+    <body>
+
+        <nav id="menu">
+            <label for="tm" id="menu1">Lesson1 <span class="drop-icon">▾</span></label>
+            <input type="checkbox" id="tm">
+            <ul class="main-menu">
+              <li><a href="#">CSS</a></li>
+              <li><a href="#">JavaScript</a></li>
+              <li><a href="#">Angular</a></li>
+              <li><a href="#">Bootstrap</a></li> 
+              <li><a href="#">ExpressJS</a></li>
+              <li><a href="#">NodeJS</a></li>
+          </nav>
+          
+   
+          
+        
+  
+    </body>
+</html>

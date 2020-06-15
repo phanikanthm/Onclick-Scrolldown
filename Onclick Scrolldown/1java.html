@@ -1,0 +1,46 @@
+<html>
+    <head>
+      <title>Scrolldown</title>
+
+    </head>
+
+    <body>
+
+<p id="par" onclick="paras()">List of Elements</p>
+<ol id="order">
+  <li>One</li>
+  <li>Two</li>
+  <li>Three</li>
+  <li>Four</li>
+  <li>Five</li>
+
+</ol>   
+<script>
+ 
+
+    var list = document.getElementById("order");
+    var para = document.getElementById("par");
+
+    list.style.display = 'none';
+    function paras(){
+
+    if(list.style.display == 'none'){
+      list.style.display = 'block';
+
+    }
+    else
+    {
+      list.style.display = 'none';
+
+    }
+  
+  
+  
+  }
+
+</script>
+          
+        
+  
+    </body>
+</html>
